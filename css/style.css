@@ -33,8 +33,7 @@ ol, ul{
 .nav_btn button:hover{
     background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
     color: #FFFFFF;
-    border: none;
-    padding: 14px 42px;
+    border: 2px solid transparent
 }
 .navbar-nav{
     gap: 60px;   
@@ -116,8 +115,7 @@ ol, ul{
 .banner_btn button:hover{
     background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
     color: #FFFFFF;
-    border: none;
-    padding: 14px 42px;
+    border:2px solid transparent;
 }
 .banner_counter{
     margin-top: 80px;
@@ -232,6 +230,10 @@ ol, ul{
     color: #707070;
     margin-bottom: 80px;
 }
+.about_middle{
+    display: flex;
+    gap: 100px;
+}
 .about_textbtn p{
     font-family: "Lato", sans-serif;
     font-weight: 500;
@@ -259,20 +261,29 @@ ol, ul{
     border: none;
     padding: 14px 42px;
 }
-.about_down{
-    padding-top: 100px;
+.myskills{
+    display: flex;
+    gap: 69.25px;
+    margin-top: 100px;
 }
-.about_down h3{
+.skill img{
+    margin-left: 10px;
+}
+.skill h3{
      color: #FD6F00;
+     margin: 24px 40px 8px;
      /* text-align: center; */
 }
-.about_down p{
-
+.skill p{
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 24px;
     color: #959595;
 
 }
+.skill_para{
+    margin-left: 30px;
+}
+/* about_part css ends here */
 
 
