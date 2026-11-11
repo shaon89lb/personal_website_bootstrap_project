@@ -21,8 +21,9 @@ ol, ul{
 }
 .nav_btn button{
     padding: 12px 40px;
-    background: none;
-    border: 2px solid #959595;
+    background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
+    color: #FFFFFF;
+    border: 2px solid transparent;
     border-radius: 8px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -31,9 +32,8 @@ ol, ul{
     color: #FFFFFF;
 }
 .nav_btn button:hover{
-    background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
-    color: #FFFFFF;
-    border: 2px solid transparent
+    border:2px solid #959595;
+    background:none;
 }
 .navbar-nav{
     gap: 60px;   
@@ -103,19 +103,19 @@ ol, ul{
 }
 .banner_btn button{
     padding: 12px 40px;
-    border:2px solid #959595;
-    background:none;
+    background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
+    color: #FFFFFF;
+    border: 2px solid transparent;
     border-radius: 8px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 3%;
-    color: #959595;
 }
 .banner_btn button:hover{
-    background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
-    color: #FFFFFF;
-    border:2px solid transparent;
+    border:2px solid #959595;
+    color: #959595;
+    background:none;
 }
 .banner_counter{
     margin-top: 80px;
@@ -246,20 +246,21 @@ ol, ul{
 .about_textbtn button{
     margin-left: 50px;
     padding: 12px 40px;
-    border:2px solid #959595;
-    background:none;
+    background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
+    color: #FFFFFF;
+    border: 2px solid transparent;
     border-radius: 8px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 3%;
-    color: #959595;
 }
 .about_textbtn button:hover{
-    background: linear-gradient(to right, #FD6F00 0%, #E46400 100%);
-    color: #FFFFFF;
-    border: none;
-    padding: 14px 42px;
+    
+    color: #959595;
+    border:2px solid #959595;
+    background:none;
+   
 }
 .myskills{
     display: flex;
